@@ -8,7 +8,7 @@ public class Conexion {
 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/control_clientes?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String JDBC_USER = "root";
-    private static final String JDBC_PASSWORD = "Root.859647*";
+    private static final String JDBC_PASSWORD = "*";// asignar clave de base de datos
     private static BasicDataSource dataSource;
 
     public static DataSource getDataSource() {
